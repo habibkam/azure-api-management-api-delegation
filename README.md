@@ -12,7 +12,7 @@ You have:
 - setup localdb for the web application user registration and update the connectionstring in web.config
 - setup APIM with the plan url of your web application and generate the key
 - update Account controller code with your APIM settings:
- - string ApimProxyEndpoint = "<your apim proxy endpoint>";
+ ..* string ApimProxyEndpoint = "<your apim proxy endpoint>";
  - string ApimDevPortalSignoutUrl = "https://<your dev portal>/signout";
  - string ApimDevPortalDevUrl = "https://<your dev portal>/developer";
  - string ApimDelegationKey = "<your generated delegation key>";
