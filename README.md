@@ -13,9 +13,9 @@ You have:
 - setup APIM with the plan url of your web application and generate the key
 - update Account controller code with your APIM settings:
     * string ApimProxyEndpoint = "<your apim proxy endpoint>";
- - string ApimDevPortalSignoutUrl = "https://<your dev portal>/signout";
- - string ApimDevPortalDevUrl = "https://<your dev portal>/developer";
- - string ApimDelegationKey = "<your generated delegation key>";
+    * string ApimDevPortalSignoutUrl = "https://<your dev portal>/signout";
+    * string ApimDevPortalDevUrl = "https://<your dev portal>/developer";
+    * string ApimDelegationKey = "<your generated delegation key>";
 - deploy the web application
 - launch the APIM dev portal and start testing
 
