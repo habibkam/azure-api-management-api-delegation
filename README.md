@@ -15,7 +15,7 @@ You have:
     * string ApimProxyEndpoint = "your apim proxy endpoint";
     * string ApimDevPortalSignoutUrl = "https://your dev portal/signout";
     * string ApimDevPortalDevUrl = "https://your dev portal/developer";
-    * string ApimDelegationKey = "your generated delegation ke>";
+    * string ApimDelegationKey = "your generated delegation key";
 - deploy the web application
 - launch the APIM dev portal and start testing
 
